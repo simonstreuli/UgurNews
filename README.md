@@ -10,5 +10,6 @@ In der CodeWeek Winter realisieren in Gruppen eine Webanwendung. Unsere Webappli
 
 **Gruppe:** Simon Streuli, Deniz Ugur, Fran Matkovic<br>
 **Name:** Ugur News<br>
+**OPEN-API:** newsapi.org<br>
 **Logo:**<br>
 <img src="images/logo2.png" alt="Logo" width="500"/>
