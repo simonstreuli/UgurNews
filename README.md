@@ -11,4 +11,4 @@ Unser Projekt ist es eine Webapplikation mit Backend und Frontend zu programmier
 **Gruppe:** Simon Streuli, Deniz Ugur, Fran Matkovic
 **Name:** Ugur News
 **Logo:**
-<img src="images/logo-removebg-preview.png" alt="Logo" width="500"/>
+<img src="images/logo-PhotoRoom.png-PhotoRoom.png" alt="Logo" width="500"/>
