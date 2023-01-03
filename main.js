@@ -1,7 +1,9 @@
+const API_KEY = "E44ehj1sHkc6t7dVll7i60DOab5vBF05";
+const BASE_URL =
+  "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=";
+const URL = BASE_URL + API_KEY;
 async function getNews() {
-  await fetch(
-    "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=E44ehj1sHkc6t7dVll7i60DOab5vBF05"
-  )
+  await fetch(URL)
     .then((d) => d.json())
     .then((response) => {
       console.log(response.results);
