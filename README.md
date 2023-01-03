@@ -1,4 +1,4 @@
-# UgurNews
+# Ugur News
 
 <br>
 
@@ -8,7 +8,7 @@ Unser Projekt ist es eine Webapplikation mit Backend und Frontend zu programmier
 
 <br>
 
-**Gruppe:** Simon Streuli, Deniz Ugur, Fran Matkovic
-**Name:** Ugur News
-**Logo:**
+**Gruppe:** Simon Streuli, Deniz Ugur, Fran Matkovic<br>
+**Name:** Ugur News<br>
+**Logo:**<br>
 <img src="images/logo2.png" alt="Logo" width="500"/>
