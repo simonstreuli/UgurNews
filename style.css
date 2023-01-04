@@ -39,11 +39,12 @@ h5{
     font-weight: bold;
 }
 img {
+    margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 3px;
   }
 
-.btn{
+.btn{           
     position: absolute;
     bottom: 0;
     margin: 5px;
