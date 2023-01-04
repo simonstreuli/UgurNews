@@ -38,3 +38,16 @@ h5{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+img {
+    margin-bottom: 15px;
+  }
+
+.btn{
+    position: absolute;
+    bottom: 0;
+    margin: 5px;
+}
+
+p {
+    margin-bottom: 40px;
+}
