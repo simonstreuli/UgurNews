@@ -9,7 +9,7 @@ const newsQuery = document.getElementById("newsQuery");
 const newsType = document.getElementById("newsType");
 const newsdetails = document.getElementById("newsdetails");
 
-var newsDataArr = [];
+let newsDataArr = [];
 
 const API_KEY = "30c08f49e75d40f48630131342f0708c";
 const HEADLINES_NEWS =
@@ -70,7 +70,7 @@ const fetchHeadlines = async () => {
   } else {
     // handle errors
     console.log(response.status, response.statusText);
-    newsdetails.innerHTML = "<h5>No data found.</h5>";
+    newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
   }
 
@@ -86,7 +86,7 @@ const fetchGeneralNews = async () => {
   } else {
     // handle errors
     console.log(response.status, response.statusText);
-    newsdetails.innerHTML = "<h5>No data found.</h5>";
+    newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
   }
 
@@ -102,7 +102,7 @@ const fetchBusinessNews = async () => {
   } else {
     // handle errors
     console.log(response.status, response.statusText);
-    newsdetails.innerHTML = "<h5>No data found.</h5>";
+    newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
   }
 
@@ -119,7 +119,7 @@ const fetchEntertainmentNews = async () => {
   } else {
     // handle errors
     console.log(response.status, response.statusText);
-    newsdetails.innerHTML = "<h5>No data found.</h5>";
+    newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
   }
 
@@ -135,7 +135,7 @@ const fetchSportsNews = async () => {
   } else {
     // handle errors
     console.log(response.status, response.statusText);
-    newsdetails.innerHTML = "<h5>No data found.</h5>";
+    newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
   }
 
@@ -151,7 +151,7 @@ const fetchTechnologyNews = async () => {
   } else {
     // handle errors
     console.log(response.status, response.statusText);
-    newsdetails.innerHTML = "<h5>No data found.</h5>";
+    newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
   }
 
@@ -171,7 +171,7 @@ const fetchQueryNews = async () => {
   } else {
     //error handle
     console.log(response.status, response.statusText);
-    newsdetails.innerHTML = "<h5>No data found.</h5>";
+    newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
   }
 
@@ -187,34 +187,34 @@ function displayNews() {
    }
 
   newsDataArr.forEach((news) => {
-    var date = news.publishedAt.split("T");
+    let date = news.publishedAt.split("T");
 
-    var col = document.createElement("div");
+    let col = document.createElement("div");
     col.className = "col-sm-12 col-md-4 col-lg-3 p-2 card";
 
-    var card = document.createElement("div");
+    let card = document.createElement("div");
     card.className = "p-2";
 
-    var image = document.createElement("img");
+    let image = document.createElement("img");
     image.setAttribute("height", "matchparent");
     image.setAttribute("width", "100%");
     image.src = news.urlToImage;
 
-    var cardBody = document.createElement("div");
+    let cardBody = document.createElement("div");
 
-    var newsHeading = document.createElement("h5");
+    let newsHeading = document.createElement("h5");
     newsHeading.className = "card-title";
     newsHeading.innerHTML = news.title;
 
-    var dateHeading = document.createElement("h6");
+    let dateHeading = document.createElement("h6");
     dateHeading.className = "text-primary";
     dateHeading.innerHTML = date[0];
 
-    var discription = document.createElement("p");
+    let discription = document.createElement("p");
     discription.className = "text-muted";
     discription.innerHTML = news.description;
 
-    var link = document.createElement("a");
+    let link = document.createElement("a");
     link.className = "btn btn-dark";
     link.setAttribute("target", "_blank");
     link.href = news.url;
