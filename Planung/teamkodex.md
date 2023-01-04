@@ -13,3 +13,5 @@
 - **Zeitmanagement** Das Team soll sicherstellen, dass Projekte und Aufgaben rechtzeitig abgegeben werden
   <br>
 - **Feedback** Das Team soll gegenseitig konstruktive Kritik liefern, um ein gutes Ergebnis zu erreichen.
+  <br>
+  ![okii](../images/Team-Kodex.png)
