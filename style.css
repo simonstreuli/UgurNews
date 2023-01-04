@@ -40,6 +40,7 @@ h5{
 }
 img {
     margin-bottom: 15px;
+    border-radius: 3px;
   }
 
 .btn{
@@ -50,4 +51,9 @@ img {
 
 p {
     margin-bottom: 40px;
+}
+
+.btn1 {
+    position: relative;
+    left: 100px;
 }
