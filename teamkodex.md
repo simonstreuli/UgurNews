@@ -2,14 +2,14 @@
 
 **Unser Teamkodex**
 
-- **Kommunikation** es wichtig, dass das Team offen und ehrlich miteinander Kommuniziert
+- **Kommunikation** Es wichtig, dass das Team offen und ehrlich miteinander kommuniziert
   <br>
-- **Verantwortung** es wichtig, dass jeder seine eigenen Aufgaben und Verantwortlickkeiten ernst nehmen
+- **Verantwortung** Es wichtig, dass jeder seine eigenen Aufgaben und Verantwortlichkeiten ernst nehmen
   <br>
-- **Zusammenarbeit** das Team soll gemeinsam Arbeiten und bei Problemen zusammen eine Lösung finden
+- **Zusammenarbeit** Das Team soll gemeinsam arbeiten und bei Problemen zusammen eine Lösung finden
   <br>
-- **Respekt** jedes Teammitglied sollte einander respektieren und jedem mit Verständnis begegnen
+- **Respekt** Jedes Teammitglied sollte einander respektieren und jedem mit Verständnis begegnen
   <br>
-- **Zeitmanagment** das Team soll sicherstellen, dass Projekte und Aufgaben rechtzeitig abgegeben werden
+- **Zeitmanagement** Das Team soll sicherstellen, dass Projekte und Aufgaben rechtzeitig abgegeben werden
   <br>
-- **Feedback** das Team soll gegenseitig konstruktive Kritik liefern, um ein gutes Ergebniss zu erreichen.
+- **Feedback** Das Team soll gegenseitig konstruktive Kritik liefern, um ein gutes Ergebnis zu erreichen.
