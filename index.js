@@ -11,7 +11,7 @@ const newsdetails = document.getElementById("newsdetails");
 
 let newsDataArr = [];
 
-const API_KEY = "30c08f49e75d40f48630131342f0708c";
+const API_KEY = "e777a7e3088a4c98bad6982a886b3aa2";
 const HEADLINES_NEWS =
   "https://newsapi.org/v2/top-headlines?country=in&apiKey=";
 const GENERAL_NEWS =
@@ -68,6 +68,7 @@ const fetchHeadlines = async () => {
     const myJson = await response.json();
     newsDataArr = myJson.articles;
   } else {
+    // handle errors
     console.log(response.status, response.statusText);
     newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
@@ -99,6 +100,7 @@ const fetchBusinessNews = async () => {
     const myJson = await response.json();
     newsDataArr = myJson.articles;
   } else {
+    // handle errors
     console.log(response.status, response.statusText);
     newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
@@ -179,10 +181,10 @@ const fetchQueryNews = async () => {
 function displayNews() {
   newsdetails.innerHTML = "";
 
-  if (newsDataArr.length == 0) {
-    newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
-    return;
-  }
+   if(newsDataArr.length == 0) {
+       newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>"
+       return;
+   }
 
   newsDataArr.forEach((news) => {
     let date = news.publishedAt.split("T");
