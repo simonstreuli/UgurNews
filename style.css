@@ -1,10 +1,9 @@
 h4{
-    color: rgb(0, 0, 0);
-    
+    color: rgb(255, 255, 255);
 }
 
 body{
-    background-color: #ffffff;
+    background-color: #212529;
 }
 
 #p-2{
@@ -21,7 +20,7 @@ h6{
     color: white;
 }
 
-p1{
+p1 {
     color: white;
 }
 
@@ -44,7 +43,7 @@ img {
     border-radius: 3px;
   }
 
-.btn{           
+.btn {           
     position: absolute;
     bottom: 0;
     margin: 5px;
@@ -69,4 +68,15 @@ h1 {
 }
 .p-4{
     padding: 0rem !important;;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.card {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 30%;
 }
