@@ -1,6 +1,6 @@
 const API_KEY = "E44ehj1sHkc6t7dVll7i60DOab5vBF05";
 const BASE_URL =
-  "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=";
+  "https://api.nytimes.com/svc/mostpopular/v2/emailed/7.json?api-key=";
 const URL = BASE_URL + API_KEY;
 async function getNews() {
   await fetch(URL)
@@ -27,8 +27,6 @@ async function getNews() {
         } catch (err) {
           console.log(err);
         }
-        // console.log(response.results[i].title);
-        // console.log(i);
       }
       document.getElementById("copyright").innerHTML = response.copyright;
     });
