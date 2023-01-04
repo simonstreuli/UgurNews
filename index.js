@@ -181,10 +181,10 @@ const fetchQueryNews = async () => {
 function displayNews() {
   newsdetails.innerHTML = "";
 
-  // if(newsDataArr.length == 0) {
-  //     newsdetails.innerHTML = "<h5>No data found.</h5>"
-  //     return;
-  // }
+   if(newsDataArr.length == 0) {
+       newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>"
+       return;
+   }
 
   newsDataArr.forEach((news) => {
     var date = news.publishedAt.split("T");
