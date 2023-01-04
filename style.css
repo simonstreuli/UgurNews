@@ -49,6 +49,8 @@ img {
     position: absolute;
     bottom: 0;
     margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 p {
@@ -80,5 +82,5 @@ footer {
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
-    width: 30%;
+    width: 30.66%;
 }
