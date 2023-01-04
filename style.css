@@ -1,5 +1,5 @@
 h4{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 body{
@@ -21,9 +21,15 @@ h6{
 }
 
 p1{
-    color: grey;
+    color: white;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
+}
+
+.text-muted {
+    bs-text-opacity: 1;
+    color: white!important;
 }
