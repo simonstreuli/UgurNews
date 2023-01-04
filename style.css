@@ -3,5 +3,23 @@ h4{
 }
 
 body{
+    background-color: #ffffff;
+}
+
+#p-2{
+    color: #212529;
     background-color: #212529;
+}
+
+.newsdetails{
+    color: black;
+    background-color: #212529;
+}
+
+h6{
+    color: white;
+}
+
+p1{
+    color: grey;
 }
