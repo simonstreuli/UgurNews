@@ -21,5 +21,15 @@ h6{
 }
 
 p1{
-    color: grey;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-muted {
+    bs-text-opacity: 1;
+    color: white!important;
 }
