@@ -27,12 +27,12 @@ const TECHNOLOGY_NEWS =
 const SEARCH_NEWS = "https://newsapi.org/v2/everything?q=";
 
 window.onload = function () {
-  newsType.innerHTML = "<h4>Headlines</h4>";
+  newsType.innerHTML = "<h4>Top News</h4>";
   fetchHeadlines();
 };
 
 generalBtn.addEventListener("click", function () {
-  newsType.innerHTML = "<h4>General news</h4>";
+  newsType.innerHTML = "<h4>Allgemeine News</h4>";
   fetchGeneralNews();
 });
 
@@ -42,7 +42,7 @@ businessBtn.addEventListener("click", function () {
 });
 
 sportsBtn.addEventListener("click", function () {
-  newsType.innerHTML = "<h4>Sports</h4>";
+  newsType.innerHTML = "<h4>Sport</h4>";
   fetchSportsNews();
 });
 
@@ -52,12 +52,12 @@ entertainmentBtn.addEventListener("click", function () {
 });
 
 technologyBtn.addEventListener("click", function () {
-  newsType.innerHTML = "<h4>Technology</h4>";
+  newsType.innerHTML = "<h4>Technologie</h4>";
   fetchTechnologyNews();
 });
 
 searchBtn.addEventListener("click", function () {
-  newsType.innerHTML = "<h4>Search : " + newsQuery.value + "</h4>";
+  newsType.innerHTML = "<h4>Suchen : " + newsQuery.value + "</h4>";
   fetchQueryNews();
 });
 
