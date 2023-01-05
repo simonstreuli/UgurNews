@@ -35,7 +35,8 @@ a {
 
     color: black!important;
 }
-h5{
+h5 {
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
@@ -161,4 +162,8 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+h2 {
+    margin: 15px;
 }
