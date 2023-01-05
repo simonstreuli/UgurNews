@@ -13,6 +13,7 @@
 </head>
 
   <header>
+    <!-- navbar -->
   <div class="container-fluid m-0 p-0">
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-black">
@@ -53,8 +54,17 @@
         </div>
        
       </header>
+
       <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"></div>
       <body class="m-0 p-0" >
+
+        <!-- <button id="darkmode" onclick="darkmode()">enable darkmode</button> -->
+        
+        <label class="switch" id="darkmode">
+          <input onclick="darkmode()" type="checkbox" id="darkmode">
+          <span class="slider round"></span>
+        </label>
+        
         <div>
             <div class="row m-3" id="newsType"></div>
             <div class="row me-2 ms-2" id="newsdetails"></div>
