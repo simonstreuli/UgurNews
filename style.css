@@ -93,7 +93,7 @@ footer {
 }
 
 #darkmode{
-   position: fixed;
+
    right: 0.5%;
 }
 
@@ -166,4 +166,10 @@ input:checked + .slider:before {
 
 h2 {
     margin: 15px;
+}
+
+.switch{
+    position: absolute;
+    top: 15%;
+    left: 92.5%;
 }
