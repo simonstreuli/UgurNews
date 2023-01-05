@@ -84,3 +84,9 @@ footer {
     margin-left: 20px;
     width: 30.66%;
 }
+
+#searchBtn {
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
