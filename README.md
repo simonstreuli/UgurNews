@@ -8,8 +8,10 @@ In der CodeWeek Winter realisieren in Gruppen eine Webanwendung. Unsere Webappli
 
 <br>
 
-**Gruppe:** Simon Streuli, Deniz Ugur, Fran Matkovic<br>
+**Gruppe:** Simon Streuli, Deniz Ugur, Fran Matkovic <br>
+<br>
 <img src="images/streuli.jpg" alt="drawing" width="200"/> <img src="images/Efe.jpg" alt="drawing" width="200"/> <img src="images/fran.jpg" alt="drawing" width="200"/>
+<br>
 
 **Name:** Ugur News<br>
 **OPEN-API:** New York times API<br>
