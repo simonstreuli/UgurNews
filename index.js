@@ -68,7 +68,6 @@ const fetchHeadlines = async () => {
     const myJson = await response.json();
     newsDataArr = myJson.articles;
   } else {
-    // handle errors
     console.log(response.status, response.statusText);
     newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
@@ -84,7 +83,6 @@ const fetchGeneralNews = async () => {
     const myJson = await response.json();
     newsDataArr = myJson.articles;
   } else {
-    // handle errors
     console.log(response.status, response.statusText);
     newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
@@ -100,7 +98,6 @@ const fetchBusinessNews = async () => {
     const myJson = await response.json();
     newsDataArr = myJson.articles;
   } else {
-    // handle errors
     console.log(response.status, response.statusText);
     newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
@@ -117,7 +114,6 @@ const fetchEntertainmentNews = async () => {
     console.log(myJson);
     newsDataArr = myJson.articles;
   } else {
-    // handle errors
     console.log(response.status, response.statusText);
     newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
@@ -133,7 +129,6 @@ const fetchSportsNews = async () => {
     const myJson = await response.json();
     newsDataArr = myJson.articles;
   } else {
-    // handle errors
     console.log(response.status, response.statusText);
     newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
@@ -149,7 +144,6 @@ const fetchTechnologyNews = async () => {
     const myJson = await response.json();
     newsDataArr = myJson.articles;
   } else {
-    // handle errors
     console.log(response.status, response.statusText);
     newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
@@ -169,7 +163,6 @@ const fetchQueryNews = async () => {
     const myJson = await response.json();
     newsDataArr = myJson.articles;
   } else {
-    //error handle
     console.log(response.status, response.statusText);
     newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
     return;
@@ -181,10 +174,10 @@ const fetchQueryNews = async () => {
 function displayNews() {
   newsdetails.innerHTML = "";
 
-   if(newsDataArr.length == 0) {
-       newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>"
-       return;
-   }
+  if (newsDataArr.length == 0) {
+    newsdetails.innerHTML = "<h5>Keine News gefunden.</h5>";
+    return;
+  }
 
   newsDataArr.forEach((news) => {
     let date = news.publishedAt.split("T");

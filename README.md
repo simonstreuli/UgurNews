@@ -8,7 +8,7 @@ In der CodeWeek Winter realisieren in Gruppen eine Webanwendung. Unsere Webappli
 
 <br>
 
-**Gruppe:** Simon Streuli, Deniz Ugur, Fran Matkovic <br>
+**Gruppe:** Simon Streuli, Deniz Ugur, Fran Matkovic
 <br>
 <img src="images/streuli.jpg" alt="drawing" width="200"/> <img src="images/Efe.jpg" alt="drawing" width="200"/> <img src="images/fran.jpg" alt="drawing" width="200"/>
 <br>
@@ -17,3 +17,9 @@ In der CodeWeek Winter realisieren in Gruppen eine Webanwendung. Unsere Webappli
 **OPEN-API:** Newsapi.org<br>
 **Logo:**<br>
 <img src="images/logo2.png" alt="Logo" width="500"/>
+
+# Ziel (SMART)
+
+Unser Ziel ist es ein Frontend zu erstellen und eine Open API zu verwenden. Wir wollen stündlich neue Artikel gepostet werden oder aktualisiert werden. Dank der letzten üK haben wir nun ein Grundwissen über die API und wie man ein Frontend erstellt. Wir haben uns vorgenommen, am Freitag das Projekt fertig zu stellen.
+
+![oki](images/SMART.jpg)
